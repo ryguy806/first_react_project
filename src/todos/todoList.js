@@ -1,7 +1,7 @@
 import React from 'react';
 import './todoList.css'
-import NewTodoForm from "../newTodoForm/NewTodoForm";
-import TodoListItem from '../todoListItem/TodoListItem.js';
+import NewTodoForm from "./NewTodoForm";
+import TodoListItem from './TodoListItem.js';
 
 const TodoList = ({ todos = [{text: "Hello!"}] }) => (
     <div className="listWrapper">
